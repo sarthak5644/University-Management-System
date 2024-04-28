@@ -26,6 +26,7 @@ public class Project extends JFrame implements ActionListener {
         facultyInfo.setBackground(Color.WHITE);
         facultyInfo.addActionListener(this);
         newInformation.add(facultyInfo);
+        mb.add(newInformation);
         
         JMenuItem studentInfo = new JMenuItem("New Student Information");
         studentInfo.setBackground(Color.WHITE);
